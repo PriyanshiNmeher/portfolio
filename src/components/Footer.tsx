@@ -22,7 +22,7 @@ export default function Footer() {
                         <a href="https://www.linkedin.com/in/priyanshi-nandmeher-8131832a0/" className="text-slate-400 hover:text-primary transition-colors">
                             <Linkedin size={24} />
                         </a>
-                        <a href="nandmeharpriyanshi@gmail.com" className="text-slate-400 hover:text-primary transition-colors">
+                        <a href="mailto:nandmeharpriyanshi@gmail.com" className="text-slate-400 hover:text-primary transition-colors">
                             <Mail size={24} />
                         </a>
                     </div>
