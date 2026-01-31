@@ -16,13 +16,13 @@ export default function Footer() {
                     </div>
 
                     <div className="flex gap-6">
-                        <a href="" className="text-neutral-400 hover:text-primary transition-colors">
+                        <a href="https://github.com/PriyanshiNmeher" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-primary transition-colors">
                             <Github size={24} />
                         </a>
-                        <a href="https://www.linkedin.com/in/priyanshi-nandmeher-8131832a0/" className="text-neutral-400 hover:text-primary transition-colors">
+                        <a href="https://www.linkedin.com/in/priyanshi-nandmeher-8131832a0/" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-primary transition-colors">
                             <Linkedin size={24} />
                         </a>
-                        <a href="nandmeharpriyanshi@gmail.com" className="text-neutral-400 hover:text-primary transition-colors">
+                        <a href="mailto:nandmeharpriyanshi@gmail.com" className="text-neutral-400 hover:text-primary transition-colors">
                             <Mail size={24} />
                         </a>
                     </div>
