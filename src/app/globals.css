@@ -17,13 +17,13 @@
 }
 
 :root {
-  /* Technological Theme - Dark Mode Default */
-  --background: #030712; /* Very dark slate, almost black */
-  --foreground: #f8fafc; /* Slate 50 */
+  /* Black and Gray Theme */
+  --background: #000000; /* Pure Black */
+  --foreground: #ffffff; /* Pure White */
   
-  --primary: #06b6d4; /* Cyan 500 */
-  --secondary: #8b5cf6; /* Violet 500 */
-  --accent: #f43f5e; /* Rose 500 */
+  --primary: #ffffff; /* White for primary accents */
+  --secondary: #a3a3a3; /* Neutral 400 for secondary */
+  --accent: #525252; /* Neutral 600 for subtle accents */
 }
 
 /* Force dark mode */

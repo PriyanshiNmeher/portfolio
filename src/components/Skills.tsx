@@ -24,7 +24,7 @@ const skillsData = {
 
 export default function Skills() {
     return (
-        <section id="skills" className="py-20 bg-slate-900/50">
+        <section id="skills" className="py-20 bg-neutral-900/50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ export default function Skills() {
                             <h3 className="text-xl font-bold mb-4 text-primary">{category}</h3>
                             <ul className="space-y-2">
                                 {skills.map((skill) => (
-                                    <li key={skill} className="flex items-center text-slate-300 text-sm">
+                                    <li key={skill} className="flex items-center text-neutral-300 text-sm">
                                         <span className="w-1.5 h-1.5 rounded-full bg-secondary mr-2" />
                                         {skill}
                                     </li>

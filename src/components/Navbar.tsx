@@ -28,8 +28,8 @@ export default function Navbar() {
     return (
         <nav
             className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled
-                    ? "bg-background/80 backdrop-blur-md border-b border-white/10"
-                    : "bg-transparent"
+                ? "bg-background/80 backdrop-blur-md border-b border-white/10"
+                : "bg-transparent"
                 }`}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,7 +47,7 @@ export default function Navbar() {
                                 <Link
                                     key={item.name}
                                     href={item.href}
-                                    className="text-slate-300 hover:text-white hover:bg-white/5 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                                    className="text-neutral-300 hover:text-white hover:bg-white/5 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                                 >
                                     {item.name}
                                 </Link>
@@ -58,7 +58,7 @@ export default function Navbar() {
                     <div className="-mr-2 flex md:hidden">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-white hover:bg-white/10 focus:outline-none"
+                            className="inline-flex items-center justify-center p-2 rounded-md text-neutral-400 hover:text-white hover:bg-white/10 focus:outline-none"
                         >
                             {isOpen ? <X size={24} /> : <Menu size={24} />}
                         </button>
@@ -80,7 +80,7 @@ export default function Navbar() {
                                     key={item.name}
                                     href={item.href}
                                     onClick={() => setIsOpen(false)}
-                                    className="text-slate-300 hover:text-white hover:bg-white/5 block px-3 py-2 rounded-md text-base font-medium"
+                                    className="text-neutral-300 hover:text-white hover:bg-white/5 block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     {item.name}
                                 </Link>

@@ -7,8 +7,6 @@ export default function Hero() {
     return (
         <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden py-20">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <div className="absolute top-[20%] left-[10%] w-72 h-72 bg-primary/20 rounded-full blur-[100px]" />
-                <div className="absolute bottom-[20%] right-[10%] w-72 h-72 bg-secondary/20 rounded-full blur-[100px]" />
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
@@ -18,10 +16,10 @@ export default function Hero() {
                     transition={{ duration: 0.5 }}
                 >
                     <span className="inline-block py-1 px-3 rounded-full bg-white/5 border border-white/10 text-primary text-sm font-medium mb-6">
-                        Software Engineer 
+                        Software Engineer
                     </span>
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-                        Hi, I'm <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent">Priyanshi Nandmeher</span>
+                        Hi, I'm <span className="text-white">Priyanshi Nandmeher</span>
                     </h1>
                 </motion.div>
 
@@ -29,7 +27,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
-                    className="text-xl text-slate-400 max-w-2xl mx-auto mb-10"
+                    className="text-xl text-neutral-400 max-w-2xl mx-auto mb-10"
                 >
                     Crafting Efficient technological solutions.
                     Specializing in Web Development, Data Science, and C++ Programming.

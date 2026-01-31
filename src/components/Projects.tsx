@@ -8,7 +8,7 @@ const projects = [
         title: "Grocery Web App",
         description: "A fully functional grocery shopping application with secure authentication and payment integration.",
         tags: ["React", "Vite", "Context API", "Stripe", "MongoDB", "JWT", "Cloudinary"],
-        icon: <ExternalLink size={24} className="text-primary" />,
+        icon: <ExternalLink size={24} className="text-white" />,
         link: "https://streetway-frontend.onrender.com",
         github: "https://github.com/PriyanshiNmeher/StreetWay"
     },
@@ -16,7 +16,7 @@ const projects = [
         title: "Social Media for AI Enthusiasts",
         description: "A social platform for AI community with real-time interaction and content sharing.",
         tags: ["React", "Redux", "Socket.io", "MongoDB", "Nodemailer", "Cloudinary"],
-        icon: <Layers size={24} className="text-secondary" />,
+        icon: <Layers size={24} className="text-neutral-400" />,
         link: "https://ai-app-0i2h.onrender.com",
         github: "https://github.com/PriyanshiNmeher/ai-app"
     },
@@ -24,7 +24,7 @@ const projects = [
         title: "Bengaluru House Price Prediction",
         description: "Machine learning model to predict house prices with a Flask-based user interface.",
         tags: ["Python", "Flask", "Scikit Learn", "Linear Regression", "HTML/CSS"],
-        icon: <Database size={24} className="text-accent" />,
+        icon: <Database size={24} className="text-neutral-400" />,
         link: "https://github.com/PriyanshiNmeher/BHP",
         github: "https://github.com/PriyanshiNmeher/BHP"
     },
@@ -32,7 +32,7 @@ const projects = [
         title: "Electronics & IoT Collection",
         description: "Various hardware projects including RFID Lock, Home Security Cam, and Robo Car.",
         tags: ["ESP32", "Arduino", "IoT", "Embedded C", "Sensors"],
-        icon: <Cpu size={24} className="text-emerald-400" />,
+        icon: <Cpu size={24} className="text-white" />,
         link: "#",
         github: "#"
     }
@@ -61,7 +61,7 @@ export default function Projects() {
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="group relative bg-slate-900/50 rounded-2xl p-8 border border-white/10 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/10 overflow-hidden"
+                            className="group relative bg-neutral-900/50 rounded-2xl p-8 border border-white/10 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/10 overflow-hidden"
                         >
                             <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
@@ -71,10 +71,10 @@ export default function Projects() {
                                         {project.icon}
                                     </div>
                                     <div className="flex gap-4">
-                                        <a href={project.github} className="text-slate-400 hover:text-white transition-colors">
+                                        <a href={project.github} className="text-neutral-400 hover:text-white transition-colors">
                                             <Github size={20} />
                                         </a>
-                                        <a href={project.link} className="text-slate-400 hover:text-white transition-colors">
+                                        <a href={project.link} className="text-neutral-400 hover:text-white transition-colors">
                                             <ExternalLink size={20} />
                                         </a>
                                     </div>
@@ -83,7 +83,7 @@ export default function Projects() {
                                 <h3 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">
                                     {project.title}
                                 </h3>
-                                <p className="text-slate-400 mb-6 min-h-[3rem]">
+                                <p className="text-neutral-400 mb-6 min-h-[3rem]">
                                     {project.description}
                                 </p>
 
