@@ -28,13 +28,13 @@ const projects = [
         link: "https://github.com/PriyanshiNmeher/BHP",
         github: "https://github.com/PriyanshiNmeher/BHP"
     },
-    {
-        title: "Electronics & IoT Collection",
-        description: "Various hardware projects including RFID Lock, Home Security Cam, and Robo Car.",
-        tags: ["ESP32", "Arduino", "IoT", "Embedded C", "Sensors"],
+     {
+        title: "Task Management System",
+        description: "Various task management system for different users accordingly",
+        tags: ["React", "Vite", "Context API", "MongoDB", "JWT"],
         icon: <Cpu size={24} className="text-white" />,
-        link: "#",
-        github: "#"
+        link: "https://task-management-1-8649.onrender.com",
+        github: "https://github.com/PriyanshiNmeher/Task-Management"
     }
 ];
 
