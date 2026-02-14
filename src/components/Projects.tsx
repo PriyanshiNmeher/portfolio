@@ -21,6 +21,14 @@ const projects = [
         github: "https://github.com/PriyanshiNmeher/ai-app"
     },
     {
+        title: "Mini Social Media App",
+        description: "A social platform for community interaction and promotion.",
+        tags: ["React", "Context API", "Vite", "MongoDB", "JWT"],
+        icon: <Layers size={24} className="text-neutral-400" />,
+        link: "https://mini-social-media-app-lovat.vercel.app",
+        github: "https://github.com/PriyanshiNmeher/mini-social-media-app."
+    },
+    {
         title: "Bengaluru House Price Prediction",
         description: "Machine learning model to predict house prices with a Flask-based user interface.",
         tags: ["Python", "Flask", "Scikit Learn", "Linear Regression", "HTML/CSS"],
@@ -29,12 +37,12 @@ const projects = [
         github: "https://github.com/PriyanshiNmeher/BHP"
     },
     {
-        title: "Electronics & IoT Collection",
-        description: "Various hardware projects including RFID Lock, Home Security Cam, and Robo Car.",
-        tags: ["ESP32", "Arduino", "IoT", "Embedded C", "Sensors"],
+        title: "Task Management System",
+        description: "Various task management system for different users accordingly.",
+        tags: ["React", "Vite", "Context API", "MongoDB", "JWT"],
         icon: <Cpu size={24} className="text-white" />,
-        link: "#",
-        github: "#"
+        link: "https://task-management-1-8649.onrender.com",
+        github: "https://github.com/PriyanshiNmeher/Task-Management"
     }
 ];
 
