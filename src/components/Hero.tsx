@@ -30,7 +30,7 @@ export default function Hero() {
                     className="text-xl text-neutral-400 max-w-2xl mx-auto mb-10"
                 >
                     Crafting Efficient technological solutions.
-                    Specializing in Web Development, Machine Learning and C++ Programming.
+                    Specializing in Web Development, Data Science and C++ Programming.
                 </motion.p>
 
                 <motion.div
