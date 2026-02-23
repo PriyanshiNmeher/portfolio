@@ -6,7 +6,7 @@ import { ExternalLink, Github, Layers, Cpu, Database } from "lucide-react";
 const projects = [
     {
         title: "Grocery Web App",
-        description: "A fully functional grocery shopping application with secure authentication and payment integration.",
+        description: "A fully functional production ready scalable grocery shopping application with secure authentication and payment integration.",
         tags: ["React", "Vite", "Context API", "Stripe", "MongoDB", "JWT", "Cloudinary"],
         icon: <ExternalLink size={24} className="text-white" />,
         link: "https://streetway-frontend.onrender.com",
@@ -14,15 +14,15 @@ const projects = [
     },
     {
         title: "Social Media for AI Enthusiasts",
-        description: "A social platform for AI community with real-time interaction and content sharing.",
+        description: "A fully responsive scalable social platform for AI community with real-time interaction and content sharing.",
         tags: ["React", "Redux", "Socket.io", "MongoDB", "Nodemailer", "Cloudinary"],
         icon: <Layers size={24} className="text-neutral-400" />,
-        link: "https://ai-app-0i2h.onrender.com",
+        link: "https://ai-app-roan-psi.vercel.app",
         github: "https://github.com/PriyanshiNmeher/ai-app"
     },
     {
         title: "Mini Social Media App",
-        description: "A social platform for community interaction and promotion.",
+        description: "A production ready social platform for community interaction and promotion with responsiveness.",
         tags: ["React", "Context API", "Vite", "MongoDB", "JWT"],
         icon: <Layers size={24} className="text-neutral-400" />,
         link: "https://mini-social-media-app-lovat.vercel.app",
