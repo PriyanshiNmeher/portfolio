@@ -57,7 +57,7 @@ export default function About() {
                             My journey bridges the gap between hardware logic and software innovation.
                         </p>
                         <p className="text-neutral-300 mb-6 leading-relaxed">
-                            I have honed my skills in <strong>Web Development</strong>, building full-stack applications with the MERN stack and Next.js.
+                            I have honed my skills in <strong>Web Development</strong>, building production ready full-stack applications with the MERN stack and Next.js.
                             Simultaneously, I explore the world of <strong>Data Science</strong>, leveraging Python and machine learning to derive insights from data.
                             My foundation in <strong>C++ and OOP</strong> ensures I write efficient, scalable code.
                         </p>
