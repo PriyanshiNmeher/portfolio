@@ -13,11 +13,11 @@ const skillsData = {
         "Seaborn", "Scikit Learn", "Data Cleaning",
         "Supervised Learning", "Unsupervised Learning"
     ],
-    "Core & Tools": [
-        "C++", "Data Structures", "Algorithms",
+    "Fundamentals & Tools": [
+        "System design","Computer Network","Operating System","DBMS","C++", "Data Structures", "Algorithms",
         "OOP", "Git/GitHub", "VS Code"
     ],
-    "Electronics": [
+    "Core and Electronics": [
         "IoT", "ESP32/ESP8266", "Embedded C", "Arduino"
     ]
 };
